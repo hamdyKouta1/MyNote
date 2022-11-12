@@ -1,0 +1,28 @@
+/*
+                child: FutureBuilder(
+                  future: db!.getDataFromDataBase(database),
+                  builder:(context ,snapshot){
+                    return  ListView.builder(
+                        itemCount: 4,
+                        shrinkWrap: true,
+                        physics: NeverScrollableScrollPhysics(),
+                        itemBuilder: (
+                            BuildContext context, int index){
+
+                          return Column(
+                            children: [
+                              CardNote(
+                                  title: "Title",
+                                  par:
+                                  "n publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available",
+                                  date: "date",
+                                  time: "time",
+                                  color: colors[index]
+                              ),
+                              SizedBox(height: 15,)
+                            ],
+                          );
+                        });
+                  },
+                ),
+*/
